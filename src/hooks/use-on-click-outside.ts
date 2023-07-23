@@ -1,3 +1,6 @@
+// comes from useHooks websites. This hook will be used later. 
+
+
 import { RefObject, useEffect } from 'react'
 
 type Event = MouseEvent | TouchEvent

@@ -1,3 +1,7 @@
+// lib folder is for preparing stuff from libraries to be used in your application
+
+// is the database client. this ensures that while in local development, we do not instantiate more than one prisma client and instead use a cached prisma client
+
 import { PrismaClient } from '@prisma/client'
 import "server-only"
 

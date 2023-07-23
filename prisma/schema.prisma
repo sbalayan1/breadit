@@ -1,6 +1,10 @@
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
+
+// initializes a new prisma project
+// adds the documentation code provided by NextAuth for the database
+
 generator client {
   provider = "prisma-client-js"
 }
